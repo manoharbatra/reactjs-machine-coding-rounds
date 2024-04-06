@@ -1,0 +1,48 @@
+{
+  "name": "base",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@reduxjs/toolkit": "^1.9.1",
+    "axios": "^1.2.0",
+    "bootstrap": "^5.2.3",
+    "css-loader": "^6.7.2",
+    "import-glob-loader": "^1.1.0",
+    "react": "^18.2.0",
+    "react-currency-input-field": "^3.6.9",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.0.1",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.7.0",
+    "react-spinners": "^0.13.7",
+    "redux": "^4.2.0",
+    "redux-saga": "^1.2.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}

@@ -1,0 +1,24 @@
+body,
+html {
+    /* background: #eaeaea;
+    color: #1a1a1a;
+    height: 100%;
+    width: 100%; */
+}
+
+h1 {
+    font-size: 78px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.text-left {
+    text-align: left;
+}
