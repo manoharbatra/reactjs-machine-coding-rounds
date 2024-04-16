@@ -2,10 +2,25 @@
   max-width: 1280px;
   width: 100vw;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0rem 1rem;
   font-family:'Times New Roman', Times, serif;
   font-weight: 400;
+  text-align: center;
   /* background-image: linear-gradient(to bottom, black, yellow); */
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons > * {
+  margin-right: 10px;
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons > *:hover {
+  transform: scale(1.2);
 }
 
 .search-container {
@@ -19,7 +34,7 @@
 
 .btns-category{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   gap:10px;
   margin-bottom: 20px;
@@ -31,6 +46,8 @@
 }
 
 .btn-category {
+  width: 238px;
+  font-weight: 600;
   padding: 10px 15px;
   margin-right: 10px;
   background-color: #f0f0f0;
@@ -47,7 +64,7 @@
 
 .btns-playlist{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap:wrap;
   gap:10px;
   margin-bottom: 20px;
@@ -59,6 +76,7 @@
 }
 
 .btn-playlist {
+  width: 238px;
   padding: 10px 15px;
   margin-right: 10px;
   background-color: lightgreen;
@@ -87,6 +105,8 @@
   }
 
   .video-title{
+    font-family: system-ui;
+    font-weight: 500;
     margin: 10px 10px 20px 5px
   }
 }

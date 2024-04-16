@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import Modal from './components/Modal';
 import {notesData} from './notes';
 import {rawData} from './data/videosCSV.ts'
-import './App.css';
 import ReactPlayer from 'react-player';
+import { FaLinkedin } from "react-icons/fa";
+import { IoCall } from "react-icons/io5";
+import './App.css';
 
 interface Video {
   category: string;
@@ -63,6 +65,15 @@ const App: React.FC = () => {
 
   return (
     <div className="app">
+      <h2>Subscribe to Manohar Batra YT Channel</h2>
+      <span className="social-icons">
+        <a href="https://www.linkedin.com/in/manoharbatra/" target="_blank" rel="noopener noreferrer">
+         <FaLinkedin />
+        </a>
+        <a href="https://www.topmate.io/manohar" target="_blank" rel="noopener noreferrer">
+        <IoCall />
+        </a>
+      </span>
       <div className="search-container">
         <input
           type="text"
@@ -125,7 +136,7 @@ const App: React.FC = () => {
             />
             <p className="video-title">{video.title}</p>
           </div>
-        ))}
+         ))}
       </div>
       <Modal isOpen={isModalOpen} onClose={closeModal} text={modalText} />
     </div>
