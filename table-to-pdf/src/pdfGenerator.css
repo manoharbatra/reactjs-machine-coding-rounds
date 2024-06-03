@@ -1,0 +1,25 @@
+/* src/PdfGenerator.css */
+.pdf-generator {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .pdf-generator h1 {
+    margin-bottom: 20px;
+  }
+  
+  .pdf-generator table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .pdf-generator th, .pdf-generator td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .pdf-generator th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
